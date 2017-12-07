@@ -74,13 +74,4 @@ If there's no error:
 	$ rosrun <package name> <executable name>
 
 
-If you need an example of a operationnal code: see the /catkin_ws/README.txt file.
-
-
-
-
-
-
-
-
-
+If you need an example of a operationnal code: see the /catkin_ws/README.md file.
