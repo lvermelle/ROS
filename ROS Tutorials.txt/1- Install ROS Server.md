@@ -7,6 +7,7 @@ This tutorial is a shortcut of the tutorial available on http://wiki.ros.org/ind
 
 ## Prerequisites:
 -Ubuntu 14.4 installed on the laptop to install the indigo version of ROS.
+
 -Internet connection.
 
 You will only work on terminal so you can access to the laptop on ssh if you prefer. Both computers must be on the same network.
