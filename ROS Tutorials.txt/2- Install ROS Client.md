@@ -1,4 +1,4 @@
-# 1- Install ROS Client
+# 2- Install ROS Client
 
 These are the steps to install a complete ROS Client.
 
@@ -13,7 +13,7 @@ This tutorial is a shortcut of the tutorial available on http://wiki.ros.org/ind
 ## Prerequisites:
 -Ubuntu 14.4 installed on your PC to install the indigo version of ROS.
 
-	If your PC is not boot on Ubuntu 14.4, it's recommended to install VirtualBox and create a Ubuntu 14.4 Virtual Machine.
+If your PC is not boot on Ubuntu 14.4, it's recommended to install VirtualBox and create a Ubuntu 14.4 Virtual Machine.
 
 -Internet connection.
 
@@ -55,7 +55,3 @@ Network Configuration: this is what differentiate a client and a server
 
 	$ echo export ROS_MASTER_URI=http://IP_OF_LAPTOP:11311 >> ~/.bashrc
 	$ echo export ROS_HOSTNAME=IP_OF_PC>> ~/.bashrc
-
-
-
-
