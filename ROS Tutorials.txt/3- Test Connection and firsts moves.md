@@ -26,7 +26,7 @@ If you don't see list of topics, check the value of ROS_MASTER_URI in the bashrc
 
 If you see "ERROR: Unable to communicate with master!", the robot isn't bring up.
 
-		$ rostopic echo /diagnostics
+	$ rostopic echo /diagnostics
 If you don't see list of characteristics, check the value of ROS_HOSTNAME in the bashrc file of the server.
 
 
