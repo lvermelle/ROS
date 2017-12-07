@@ -23,10 +23,11 @@ On client:
 
 	$ rostopic list
 If you don't see list of topics, check the value of ROS_MASTER_URI in the bashrc file of the client.
+
 If you see "ERROR: Unable to communicate with master!", the robot isn't bring up.
 
 		$ rostopic echo /diagnostics
-	If you don't see list of characteristics, check the value of ROS_HOSTNAME in the bashrc file of the server.
+If you don't see list of characteristics, check the value of ROS_HOSTNAME in the bashrc file of the server.
 
 
 #### 3- Send message from Client to Server:
@@ -57,7 +58,8 @@ If you see "[INFO][#]: No devices connected.... waiting for devices to be connec
 
 If you have more problems, refer to this website: http://learn.turtlebot.com/2015/02/01/8/
 
-On client, open a new termianl and run this to view the image data:
+
+On client, open a new terminal and run this to view the image data:
 
 	$ rosrun image_view image_view image:=/camera/rgb/image_color
 or
