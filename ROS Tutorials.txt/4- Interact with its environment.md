@@ -54,7 +54,7 @@ TurtleBot should now be driving around autonomously based on your goals avoiding
 #### 3- Return to the base Automaticly
 Place TurtleBot anywhere in line of sight up to 3 meters from the docking station.
 
-Bingup the robot on server. On client: 
+Bingup the robot on server. In two differents terminals on client: 
 
 	$ roslaunch kobuki_auto_docking minimal.launch --screen
 	$ roslaunch kobuki_auto_docking activate.launch --screen
